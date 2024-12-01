@@ -6,6 +6,7 @@
 
 .img-cont{
     width: 1075px;
+    flex-wrap: wrap;
 }
 
 .img-3{
@@ -64,4 +65,38 @@ top: 481px;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+  }
+
+  @media (min-width:704px) and (max-width:1219px) {
+.container{
+    width: 704px;
+
+}
+
+.img-2{
+    margin-right: 31px;
+    top: 800px;
+    }
+
+    .img-cont{
+width: 704px;
+
+    }
+    .yact-title{
+        /* h2 */
+        position: relative;
+        bottom: 170px;
+    }
+
+    .img-3{
+        position: relative;
+        left: 345px;
+        margin-top: 240px;
+    }
+
+    .decor{
+position: absolute;
+top: 1200px;
+left: 100px;
+    }
   }
