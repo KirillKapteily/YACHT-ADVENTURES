@@ -5,6 +5,10 @@
     font-size: 32px;
     color: green;
     margin: 0 auto;
+    background: var(--linear-green, linear-gradient(92deg, #BEC7C2 41.03%, #A1B5BA 90.31%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 .section-reviewed{
@@ -13,6 +17,13 @@
 
 .h2-with-span{
     color: white;
+    color: var(--white, #F6F5EF);
+font-family: "DM Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: -1.44px;
 }
 
 .p-second-section{
@@ -23,4 +34,22 @@
     text-align: right;
     padding-bottom: 150px;
     margin-right: 50px;
+    color: var(--white, #F6F5EF);
+    /* main text */
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.32px;
+}
+
+
+.h2-with-span, .Yacht{
+    font-family: "DM Sans";
+font-size: 32px;
+font-style: italic;
+font-weight: 500;
+line-height: 120%; /* 38.4px */
+letter-spacing: -1.44px;
 }
