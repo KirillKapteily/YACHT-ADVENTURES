@@ -4,6 +4,7 @@
   font-weight: 500;
   font-size: 32px;
   color: green;
+  margin: 0 auto;
 }
 
 .section-reviewed {
@@ -21,4 +22,5 @@
 .section-two {
   text-align: right;
   padding-bottom: 150px;
+  margin-right: 50px;
 }/*# sourceMappingURL=reviewed.css.map */
