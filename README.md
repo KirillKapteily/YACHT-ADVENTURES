@@ -5,7 +5,7 @@
 ![Issues](https://img.shields.io/github/issues/yourusername/YACHT-ADVENTURES)
 
 **A brief description of your project goes here.**  
-Example: "A fun, old-fashioned, kid-friendly roleplaying game for all ages!"
+We are a team of Front-End Developers which are making this project! If you wan to join us the link is in my bio!
 
 ---
 

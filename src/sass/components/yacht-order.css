@@ -1,0 +1,31 @@
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.back {
+  background-color: rgb(17, 19, 31);
+}
+
+.yacht-rent {
+  background-color: transparent;
+  color: aliceblue;
+}
+
+.yact-title {
+  /* h2 */
+  color: rgb(246, 245, 239);
+  font-family: "DM Sans";
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -4.5%;
+  text-align: left;
+}
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}/*# sourceMappingURL=yacht-order.css.map */

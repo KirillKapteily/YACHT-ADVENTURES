@@ -1,0 +1,154 @@
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.img-cont {
+    width: 1075px;
+    flex-wrap: wrap;
+}
+
+.img-3 {
+    position: relative;
+    left: 345px;
+    margin-top: 30px;
+}
+
+.img-2 {
+    position: relative;
+    top: 50px;
+    margin-right: 31px;
+}
+
+.back {
+    background-color: rgb(17, 19, 31);
+}
+
+.yacht-rent {
+    background-color: transparent;
+    color: aliceblue;
+    padding: 14px 28px;
+    border: white 1px solid;
+    border-radius: 50px;
+    position: relative;
+    bottom: 150px;
+}
+
+.yact-title {
+    /* h2 */
+    position: relative;
+    bottom: 200px;
+    color: rgb(246, 245, 239);
+    font-family: "DM Sans";
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -4.5%;
+    text-align: left;
+    z-index: 10;
+}
+
+.decor {
+    filter: blur(100px);
+    background: rgb(145, 175, 186);
+    opacity: 0.9;
+    width: 414px;
+    height: 414px;
+    position: absolute;
+    left: 364px;
+    top: 481px;
+}
+
+.dm-sans {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@media (min-width:1220px) {
+    .yact-imgm {
+        display: none;
+    }
+}
+
+@media (min-width:704px) and (max-width:1219px) {
+    .container {
+        width: 704px;
+    }
+
+    .yact-imgm {
+        display: none;
+    }
+
+    .img-2 {
+        margin-right: 31px;
+        top: 800px;
+    }
+
+    .img-cont {
+        width: 704px;
+
+    }
+
+    .yact-title {
+        /* h2 */
+        position: relative;
+        bottom: 170px;
+    }
+
+    .img-3 {
+        position: relative;
+        left: 345px;
+        margin-top: 240px;
+    }
+
+    .decor {
+        position: absolute;
+        top: 1200px;
+        left: 100px;
+    }
+}
+
+@media (min-width:320px) and (max-width:480px) {
+
+    .container {
+        width: 335px;
+    }
+
+    .img-1 {
+        display: none;
+    }
+
+    .img-cont {
+        width: 335px;
+
+    }
+
+    .img-2 {
+        margin-right: 31px;
+        top: 850px;
+    }
+
+
+    .yact-title {
+        /* h2 */
+        position: relative;
+        bottom: 50px;
+    }
+
+    .img-3 {
+        position: relative;
+        left: 40px;
+        top: 100px;
+        margin-top: 240px;
+    }
+
+    .decor {
+        position: absolute;
+        width: 255px;
+        height: 255px;
+        top: 1200px;
+        left: 100px;
+    }
+}
