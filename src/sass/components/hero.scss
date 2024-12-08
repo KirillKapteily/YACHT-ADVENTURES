@@ -11,7 +11,6 @@
     list-style: none;
 }
 .display{
- margin-top: 10px;
  position:relative;
  bottom: 436px;
 }
@@ -19,13 +18,19 @@
    padding-left: 20px;
 }
 .list2{
-position: absolute;
-
+margin-left: 20px;
 }
 .margin{
     margin-left: -20px;
     z-index: 0;
 }
 .margin2{
-    z-index:;
+    z-index: 2;
+}
+.margin2 {
+    margin-left: -20px;
+    z-index: 0;
+}
+.color{
+    color:  black;
 }
