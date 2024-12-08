@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build --base=/project-name/",
+    "build": "vite build --base=/YACHT-ADVENTURES/",
     "preview": "vite preview"
   },
   "devDependencies": {
