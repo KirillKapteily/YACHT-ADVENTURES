@@ -5,8 +5,27 @@
 .baground{
     background-color: rgb(17, 19, 31);
     width: 1000;
-    height: 500px;
+    height: 1000px;
 }
 .list{
     list-style: none;
+}
+.display{
+ margin-top: 10px;
+ position:relative;
+ bottom: 436px;
+}
+.list1{
+   padding-left: 20px;
+}
+.list2{
+position: absolute;
+
+}
+.margin{
+    margin-left: -20px;
+    z-index: 0;
+}
+.margin2{
+    z-index:;
 }
