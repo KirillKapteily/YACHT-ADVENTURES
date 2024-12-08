@@ -8,20 +8,40 @@
     flex-wrap: wrap;
 }
 
+body{
+    margin: 0px 0px;
+}
+
+.img-1{
+    width: 533px;
+height: 473px;
+}
+
 .img-3 {
     position: relative;
     left: 345px;
     margin-top: 30px;
+    width: 260px;
+height: 244px;
 }
 
 .img-2 {
     position: relative;
     top: 50px;
     margin-right: 31px;
+    width: 308px;
+height: 289px;
 }
 
 .back {
     background-color: rgb(17, 19, 31);
+}
+
+.yacht-title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
 }
 
 .yacht-rent {
@@ -81,6 +101,10 @@
         display: none;
     }
 
+.yacht-title{
+    font-size: 70px;
+}
+
     .img-2 {
         margin-right: 31px;
         top: 800px;
@@ -93,8 +117,19 @@
 
     .yact-title {
         /* h2 */
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
         position: relative;
         bottom: 170px;
+    }
+
+    .center{
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        align-items: left;
     }
 
     .img-3 {
@@ -116,6 +151,10 @@
         width: 335px;
     }
 
+.yacht-rent{
+    margin-top: 100px;
+}
+
     .img-1 {
         display: none;
     }
@@ -135,6 +174,7 @@
         /* h2 */
         position: relative;
         bottom: 50px;
+        font-size: 36px;
     }
 
     .img-3 {
