@@ -77,8 +77,19 @@ height: 289px;
     width: 414px;
     height: 414px;
     position: absolute;
-    left: 364px;
+    left: 254px;
     top: 481px;
+}
+
+.decor-2 {
+    filter: blur(100px);
+background: rgb(166, 169, 178);
+opacity: 0.7;
+width: 216px;
+height: 216px;
+    position: absolute;
+    left: 684px;
+    top: 591px;
 }
 
 .dm-sans {
