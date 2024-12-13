@@ -31,7 +31,7 @@ margin-left: 20px;
     margin-left: -20px;
     z-index: 0;
 }
-.color{
+.color0{
     color:  black;
 }
 .display3{
@@ -59,4 +59,29 @@ position: relative;
     left: 100px;
     position: relative;
  bottom: 630px;
+}
+.margin3{
+position: relative;
+    bottom: 950px;
+    left: 650px;
+}
+.color{
+    color: white;
+    font-size: 14px;
+
+}
+.color1{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 2px;
+}
+.button{
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+}
+.display2{
+ display: flex;
+ margin-left: -33px;
+ gap: 5px;
 }
