@@ -1,55 +1,130 @@
-.Yacht{
-    font-style: italic;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    font-size: 32px;
-    color: green;
-    margin: 0 auto;
-    background: var(--linear-green, linear-gradient(92deg, #BEC7C2 41.03%, #A1B5BA 90.31%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.Yacht {
+  background: var(
+    --linear-green,
+    linear-gradient(92deg, #bec7c2 41.03%, #a1b5ba 90.31%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.section-reviewed{
-    background-color: #11131F;
+.section-reviewed {
+  background-color: #11131f;
 }
 
-.h2-with-span{
-    color: white;
-    color: var(--white, #F6F5EF);
-font-family: "DM Sans";
-font-size: 32px;
-font-style: normal;
-font-weight: 500;
-line-height: 120%;
-letter-spacing: -1.44px;
+.h2-with-span {
+  font-family: "DM Sans";
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 120%; /* 38.4px */
+  letter-spacing: -1.44px;
+  color: var(--white, #f6f5ef);
+  font-family: "DM Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1.44px;
+  margin-top: -20px;
+
 }
 
-.p-second-section{
-    color: #F6F5EF;
+.section-two {
+  text-align: right;
+  padding-bottom: 150px;
+  margin-right: 50px;
+  color: var(--white, #f6f5ef);
+  /* main text */
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: -0.32px;
+  color: var(--white, #f6f5ef);
+    margin-top: -140px;
+
+  /* main text */
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: -0.32px;
 }
 
-.section-two{
-    text-align: right;
-    padding-bottom: 150px;
-    margin-right: 50px;
-    color: var(--white, #F6F5EF);
-    /* main text */
-    font-family: "DM Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%; /* 22.4px */
-    letter-spacing: -0.32px;
+.h2-with-span,
+.Yacht {
+  font-family: "DM Sans";
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 120%; /* 38.4px */
+  letter-spacing: -1.44px;
+}
+
+.h2-john {
+  color: var(--white, #f6f5ef);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 19.8px */
+  letter-spacing: -0.81px;
+}
+
+.section-card-1 {
+  display: flex;
+  width: 384px;
+  height: 282px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 24px;
+  background: #1f212d;
+}
+
+.card-p-1 {
+  color: rgba(246, 245, 239, 0.5);
+  text-align: center;
+
+  /* main text */
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: -0.32px;
+  align-self: stretch;
+}
+
+.card-img-1 {
+  display: flex;
+  width: 56px;
+  height: 56px;
+  padding: 12px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 72px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.section-card-2 {
+  display: flex;
+  width: 384px;
+  padding: 32px 25px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 24px;
+  background: #1f212d;
 }
 
 
-.h2-with-span, .Yacht{
-    font-family: "DM Sans";
-font-size: 32px;
-font-style: italic;
-font-weight: 500;
-line-height: 120%; /* 38.4px */
-letter-spacing: -1.44px;
+.section-cards{
+    display: flex;
+    flex-direction: column;
 }
