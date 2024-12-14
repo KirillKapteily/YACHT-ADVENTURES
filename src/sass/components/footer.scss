@@ -1,0 +1,22 @@
+.hr1 {
+    width: 335px;
+    stroke-width: 1px;
+    stroke: rgba(246, 245, 239, 0.20);
+}
+
+.list-style {
+    list-style: none;
+}
+
+.fotr {
+    background: #11131f;
+}
+
+@media (min-width: 320px)
+{
+.hr1 {
+    width: 335px;
+    stroke-width: 1px;
+    stroke: rgba(246, 245, 239, 0.20);
+}
+}
