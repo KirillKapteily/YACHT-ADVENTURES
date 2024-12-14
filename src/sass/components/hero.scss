@@ -5,8 +5,83 @@
 .baground{
     background-color: rgb(17, 19, 31);
     width: 1000;
-    height: 500px;
+    height: 1000px;
 }
 .list{
     list-style: none;
+}
+.display{
+ position:relative;
+ bottom: 436px;
+}
+.list1{
+   padding-left: 20px;
+}
+.list2{
+margin-left: 20px;
+}
+.margin{
+    margin-left: -20px;
+    z-index: 0;
+}
+.margin2{
+    z-index: 2;
+}
+.margin2 {
+    margin-left: -20px;
+    z-index: 0;
+}
+.color0{
+    color:  black;
+}
+.display3{
+position: relative;
+    bottom: 452px;
+    margin-left: 10px;
+}
+.border{
+    border-radius: 20px;
+    position: relative;
+        bottom: 550px;
+        left: 200px;
+}
+.img-yaht{
+    position: relative;
+        bottom: 580px;
+        left: 10px;
+}
+.width{
+    position: relative;
+        bottom: 570px;
+        left: 30px;
+}
+.width2{
+    left: 100px;
+    position: relative;
+ bottom: 630px;
+}
+.margin3{
+position: relative;
+    bottom: 950px;
+    left: 650px;
+}
+.color{
+    color: white;
+    font-size: 14px;
+
+}
+.color1{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 2px;
+}
+.button{
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+}
+.display2{
+ display: flex;
+ margin-left: -33px;
+ gap: 5px;
 }
