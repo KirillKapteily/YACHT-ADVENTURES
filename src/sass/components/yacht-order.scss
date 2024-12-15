@@ -75,9 +75,11 @@ body {
     text-align: left;
     z-index: 10;
     margin-left: 199px;
-    transition: text-shadow cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+    transition: text-shadow cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s, transform cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
 
-    &:hover{
+
+    &:hover {
+        transform: rotate(2deg);
         text-shadow: #91afba 1px 0 10px;
     }
 }
@@ -90,7 +92,7 @@ body {
     height: 414px;
     position: absolute;
     left: 324px;
-    top: 581px;
+    top: 1781px;
 }
 
 .decor-2 {
@@ -100,8 +102,8 @@ body {
     width: 216px;
     height: 216px;
     position: absolute;
-    left: 784px;
-    top: 661px;
+    left: 884px;
+    top: 1951px;
 }
 
 .dm-sanst {
@@ -124,8 +126,8 @@ body {
     font-style: normal;
 }
 
-.yact-img{
-    transition: transform  0.5s;
+.yact-img {
+    transition: transform 0.5s;
 
     &:hover {
         transform: rotate(5deg);
