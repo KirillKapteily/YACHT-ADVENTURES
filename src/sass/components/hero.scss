@@ -105,8 +105,12 @@
     border-radius: 15px;
     width: 100px;
     height: 30px;
+    background-color: #11131F;
+    color: white;
 }
-
+.sec-dut:hover{
+background-color: #93ABAE;
+}
 .display2 {
     display: flex;
     margin-left: -33px;
