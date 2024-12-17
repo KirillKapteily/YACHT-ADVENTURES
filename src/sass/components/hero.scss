@@ -25,7 +25,11 @@
 .list2-second {
     margin-left: 20px;
 }
-
+.list-ul2{
+    position: relative;
+        bottom: 493px;
+        left: 50px;
+}
 .margin {
     margin-left: -20px;
     z-index: 0;
@@ -34,7 +38,11 @@
 .margin2 {
     z-index: 2;
 }
-
+.list-ul3{
+    position: relative;
+        bottom: 550px;
+        left: 80px;
+}
 .margin2 {
     margin-left: -20px;
     z-index: 0;
@@ -44,35 +52,35 @@
     color: black;
 }
 
-.display3 {
+.display34 {
     position: relative;
-    bottom: 452px;
-    margin-left: 10px;
+    bottom: 565px;
+    margin-left: 20px;
 }
 
 .border {
     border-radius: 20px;
     position: relative;
-    bottom: 550px;
+    bottom:655px;
     left: 200px;
 }
 
 .img-yaht {
     position: relative;
-    bottom: 580px;
+    bottom: 675px;
     left: 10px;
 }
 
 .width {
     position: relative;
-    bottom: 570px;
+    bottom: 690px;
     left: 30px;
 }
 
 .width2 {
     left: 100px;
     position: relative;
-    bottom: 630px;
+    bottom: 739px;
 }
 
 .margin3 {
@@ -126,5 +134,5 @@
     color: white;
     left: 1070px;
 
-    
+
 }
