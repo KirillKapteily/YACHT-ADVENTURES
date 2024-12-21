@@ -53,6 +53,7 @@
   letter-spacing: -1.44px;
 }
 
+<<<<<<< Updated upstream
 .h2-john {
   color: var(--white, #F6F5EF);
   text-align: center;
@@ -109,4 +110,10 @@
   gap: 8px;
   border-radius: 24px;
   background: #1F212D;
+=======
+@media screen and (max-width: 768px) {
+  .p-second-section {
+    margin-top: 32px;
+  }
+>>>>>>> Stashed changes
 }/*# sourceMappingURL=reviewed.css.map */
