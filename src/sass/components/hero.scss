@@ -25,11 +25,13 @@
 .list2-second {
     margin-left: 20px;
 }
-.list-ul2{
+
+.list-ul2 {
     position: relative;
-        bottom: 493px;
-        left: 50px;
+    bottom: 493px;
+    left: 50px;
 }
+
 .margin {
     margin-left: -20px;
     z-index: 0;
@@ -38,11 +40,13 @@
 .margin2 {
     z-index: 2;
 }
-.list-ul3{
+
+.list-ul3 {
     position: relative;
-        bottom: 550px;
-        left: 80px;
+    bottom: 550px;
+    left: 80px;
 }
+
 .margin2 {
     margin-left: -20px;
     z-index: 0;
@@ -61,7 +65,7 @@
 .border {
     border-radius: 20px;
     position: relative;
-    bottom:655px;
+    bottom: 655px;
     left: 200px;
 }
 
@@ -87,6 +91,13 @@
     position: relative;
     bottom: 950px;
     left: 650px;
+
+}
+
+@media screen and (min-width:768px) {
+    .margin3 {
+        position: static;
+    }
 }
 
 .color {
@@ -101,6 +112,17 @@
     margin-bottom: 2px;
 }
 
+@media screen and (min-width:768) {
+    .color3 {}
+}
+
+@media screen and (max-width:1207px) {
+    .container-h1 {
+
+        width: 500px;
+    }
+}
+
 .button {
     border-radius: 15px;
     width: 100px;
@@ -108,9 +130,11 @@
     background-color: #11131F;
     color: white;
 }
-.sec-dut:hover{
-background-color: #93ABAE;
+
+.sec-dut:hover {
+    background-color: #93ABAE;
 }
+
 .display2 {
     display: flex;
     margin-left: -33px;
