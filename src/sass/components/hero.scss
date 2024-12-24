@@ -1,15 +1,15 @@
-.container {
+.container-sec {
     width: 1220px;
     margin: 0 auto;
 }
+
+
 
 .baground {
     background-color: rgb(17, 19, 31);
     width: 1000;
     height: 1000px;
 }
-
-@media (max-width:700px) {}
 
 .list-style {
     list-style: none;
@@ -71,10 +71,26 @@
     left: 200px;
 }
 
+@media screen and (max-width:767px) {
+    .border {
+        width: 150px;
+        height: 150px;
+        margin-top: 10px;
+        left: 190px;
+    }
+}
+
 .img-yaht {
     position: relative;
     bottom: 675px;
     left: 10px;
+}
+
+@media screen and (max-width:767px) {
+    .img-yaht {
+        width: 260px;
+        height: 140px;
+    }
 }
 
 .width {
@@ -90,7 +106,7 @@
 }
 
 .margin3 {
-    
+
     bottom: 950px;
     left: 650px;
 
@@ -98,7 +114,7 @@
 
 
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:767px) {
     .margin3 {
         position: static;
 
@@ -111,9 +127,15 @@
 
 }
 
-@media screen and (max-width:375px) {
-    .high-mobile {
-        opacity: 0;
+@media screen and (max-width:767px) {
+    .color {
+
+        width: 300px;
+
+        white-space: normal;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+
     }
 }
 
@@ -123,8 +145,10 @@
     margin-bottom: 2px;
 }
 
-@media screen and (max-width:375px) {
-    .color1 {}
+@media screen and (max-width:767px) {
+    .color1 {
+        max-width: 300px;
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -164,6 +188,12 @@
 
 }
 
+@media screen and (max-width:767px) {
+    .p-color {
+        margin-top: 100px;
+    }
+}
+
 @media screen and (min-width:768px) {
     .p-color {
         margin-top: 120px;
@@ -175,6 +205,14 @@
     bottom: 890px;
     color: white;
     left: 860px;
+}
+
+@media screen and (max-width:767px) {
+    .p-1 {
+        position: relative;
+        left: 20px;
+        margin-top: 200px;
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -203,5 +241,41 @@
 @media screen and (min-width:768px) {
     .first-sec {
         margin-top: 40px;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .first-sec {
+        position: relative;
+        left: -28px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .img-media {
+        width: 320px;
+        height: 420px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .media1 {
+        margin-top: 10px;
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    .media2 {
+        margin-top: 2px;
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    .media3 {
+        margin-top: 2px;
+
     }
 }
