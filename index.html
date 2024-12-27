@@ -182,7 +182,38 @@
         </section>
     </section>
 </div>
-    
+        <!-- тест -->
+    <div>
+        <ul>
+            <li><input type="text"></li>
+            <li><input type="email"></li>
+            <li><input type=""></li>
+            <li><textarea name="" id=""></textarea></li>
+        </ul>
+        <button class="btn-open" data-modal-open>Send</button>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button class="btn" data-modal-close><img src="x.svg" alt="X"></button>
+                <p></p>
+            </div>
+        </div>
+        <script>(() => {
+                const refs = {
+                    openModalBtn: document.querySelector("[data-modal-open]"),
+                    closeModalBtn: document.querySelector("[data-modal-close]"),
+                    modal: document.querySelector("[data-modal]"),
+                };
+
+                refs.openModalBtn.addEventListener("click", toggleModal);
+                refs.closeModalBtn.addEventListener("click", toggleModal);
+
+                function toggleModal() {
+                    refs.modal.classList.toggle("is-hidden");
+                    document.body.classList.toggle("no-scroll");
+                }
+            })();</script>
+    </div>
+
     <section class="section-reviewed">
     <section>
         <h2 class="h2-with-span">
