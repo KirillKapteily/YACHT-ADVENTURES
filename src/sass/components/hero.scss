@@ -155,9 +155,7 @@
     }
 }
 
-@media screen and (min-width:768px) {
-    .color {}
-}
+
 
 @media screen and (max-width:1207px) {
     .container-h1 {
@@ -191,14 +189,19 @@
     font-size: 20px;
 
 }
-
+@media screen and (min-width:1208px) {
+    .p-color{
+        position: relative;
+       top: -700px;
+    }
+}
 @media screen and (max-width:767px) {
     .p-color {
         margin-top: 100px;
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px ) {
     .p-color {
         margin-top: 120px;
     }
@@ -248,6 +251,12 @@
         bottom: 990px;
     }
 }
+ @media screen and (min-width:1208px)  {
+    .first-sec{
+       position: relative;
+       top: -260px;
+    }
+ }
 
 @media screen and (min-width:768px) {
     .first-sec {
@@ -288,5 +297,20 @@
     .media3 {
         margin-top: 2px;
 
+    }
+}
+
+@media screen and (min-width:1208px) {
+    .second-sec{
+        position: relative;
+        left: 590px;
+        top: 190px;
+    }
+}
+@media screen and (min-width:1208px) {
+    .list-p{
+        position: relative;
+        left: 400px;
+        top: -120px;
     }
 }
