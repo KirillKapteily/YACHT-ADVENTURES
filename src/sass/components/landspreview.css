@@ -1,0 +1,55 @@
+.baground {
+  color: darkblue;
+  width: 1520px;
+  height: 1000px;
+}
+
+.container {
+  width: 1240px;
+}
+
+.list {
+  list-style: none;
+}
+
+.list1 {
+  position: relative;
+  left: 150px;
+}
+
+.list2 {
+  position: relative;
+  left: 810px;
+  bottom: 305px;
+}
+
+.list3 {
+  position: relative;
+  left: 420px;
+  bottom: 270px;
+}
+
+.width-butt {
+  width: 80px;
+  height: 30px;
+  border-radius: 16px;
+  font-size: 13px;
+}
+
+.first-butt {
+  position: relative;
+  bottom: 25px;
+  right: 550px;
+}
+
+.second-butt {
+  position: relative;
+  bottom: 17px;
+  right: 310px;
+}
+
+.third-butt {
+  position: relative;
+  bottom: 23px;
+  right: 300px;
+}/*# sourceMappingURL=landspreview.css.map */
