@@ -63,7 +63,6 @@ body {
 }
 
 .yact-title {
-    /* h2 */
     position: relative;
     bottom: 200px;
     color: rgb(246, 245, 239);
@@ -80,7 +79,7 @@ body {
 
     &:hover {
         transform: rotate(2deg);
-        // text-shadow: #91afba 1px 0 10px;
+        text-shadow: #91afba 1px 0 10px;
     }
 }
 
@@ -225,7 +224,6 @@ body {
 
 
     .yact-title {
-        /* h2 */
         position: relative;
         bottom: 50px;
         font-size: 36px;
