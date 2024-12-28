@@ -10,7 +10,11 @@
     width: 1000;
     height: 1000px;
 }
-
+@media screen and (max-width:767px) {
+    .baground{
+        height: 1350px;
+    }
+}
 .list-style {
     list-style: none;
 }
@@ -206,12 +210,12 @@
     color: white;
     left: 860px;
 }
-
 @media screen and (max-width:767px) {
     .p-1 {
         position: relative;
-        left: 20px;
-        margin-top: 200px;
+        left:1px;
+        margin-top: 190px;
+       font-size: 14px;
     }
 }
 
@@ -226,11 +230,18 @@
     position: relative;
     bottom: 1170px;
     color: white;
-    left: 1070px;
+    
 
 
 }
-
+@media screen and (max-width:767px) {
+    .p-2 {
+      position: relative;
+      left: 180px;
+      margin-top: 46px;
+      font-size: 14px;
+    }
+}
 @media screen and (min-width:768px) {
     .p-2 {
         left: 500px;
