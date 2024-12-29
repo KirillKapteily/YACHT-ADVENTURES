@@ -9,7 +9,7 @@
     
 }
 .col{
-    color: black !important;  
+    color: black !important; 
 }
 .list {
     list-style: none;
@@ -57,6 +57,7 @@
     position: relative;
     bottom: 25px;
     right: 550px;
+    padding: 0;
 }
 
 @media screen and (min-width:360px) {
@@ -68,9 +69,11 @@
 }
 
 .second-butt {
+    
     position: relative;
     bottom: 17px;
     right: 310px
+    
 }
 
 @media screen and (min-width:360px) {
@@ -88,6 +91,7 @@
     }
 }
 .third-butt {
+    padding:5px 5px 5px 5px;
     position: relative;
     bottom: 23px;
     right: 300px;
