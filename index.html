@@ -17,8 +17,8 @@
 <link rel="icon" type="image/png" sizes="16x16" href="../src/img/icons/favicon-16x16.png">
 <link rel="icon" href="../src/img/icons/favicon.ico">
 <link rel="manifest" href="/site.webmanifest"> -->
-    <script type="module" crossorigin src="/YACHT-ADVENTURES/assets/index-becc492b.js"></script>
-    <link rel="stylesheet" href="/YACHT-ADVENTURES/assets/index-23ea9220.css">
+    <script type="module" crossorigin src="/YACHT-ADVENTURES/assets/index-84dd88e0.js"></script>
+    <link rel="stylesheet" href="/YACHT-ADVENTURES/assets/index-3c01fb5d.css">
   </head>
   <body>
 
@@ -176,38 +176,42 @@
         </section>
     </section>
 </div>
-        <!-- тест -->
-    <div>
-        <ul>
-            <li><input type="text"></li>
-            <li><input type="email"></li>
-            <li><input type=""></li>
-            <li><textarea name="" id=""></textarea></li>
-        </ul>
-        <button class="btn-open" data-modal-open>Send</button>
-        <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-                <button class="btn" data-modal-close><img src="x.svg" alt="X"></button>
-                <p></p>
-            </div>
+    <!-- тест -->
+<div>
+    <ul>
+        <li><input type="text"></li>
+        <li><input type="email"></li>
+        <li><input type=""></li>
+        <li><textarea name="" id=""></textarea></li>
+    </ul>
+    <button class="btn-open" data-modal-open>Send</button>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="btn" data-modal-close>
+                <svg class="rddbs1">
+                    <use href="../img/rent-a-yacht-now/symbol-defs.svg#icon-x"></use>
+                </svg>
+            </button>
+            <div class="rddbd1"><img src="/src/img/rent-a-yacht-now/img yaht.png" alt="Yachta"></div>
+            <p></p>
         </div>
-        <script>(() => {
-                const refs = {
-                    openModalBtn: document.querySelector("[data-modal-open]"),
-                    closeModalBtn: document.querySelector("[data-modal-close]"),
-                    modal: document.querySelector("[data-modal]"),
-                };
-
-                refs.openModalBtn.addEventListener("click", toggleModal);
-                refs.closeModalBtn.addEventListener("click", toggleModal);
-
-                function toggleModal() {
-                    refs.modal.classList.toggle("is-hidden");
-                    document.body.classList.toggle("no-scroll");
-                }
-            })();</script>
     </div>
+    <script>(() => {
+            const refs = {
+                openModalBtn: document.querySelector("[data-modal-open]"),
+                closeModalBtn: document.querySelector("[data-modal-close]"),
+                modal: document.querySelector("[data-modal]"),
+            };
 
+            refs.openModalBtn.addEventListener("click", toggleModal);
+            refs.closeModalBtn.addEventListener("click", toggleModal);
+
+            function toggleModal() {
+                refs.modal.classList.toggle("is-hidden");
+                document.body.classList.toggle("no-scroll");
+            }
+        })();</script>
+</div>
     <section class="section-reviewed">
     <section>
         <h2 class="h2-with-span">
