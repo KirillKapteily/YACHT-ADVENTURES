@@ -12,7 +12,18 @@
             what they have to say <br> about their journey with us.</p>
     </section>
     <section class="section-cards">
-        <div class="section-card-1">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+        <li class="section-card-1">
             <section>
                 <img class="card-img-1" src="../img/reviewed-img/image.png" alt="">
             </section>
@@ -24,9 +35,10 @@
                     decision ever. The yacht was
                     spacious, comfortable, and luxurious, and the crew took care of everything.</p>
             </section>
-        </div>
-        <br><br>
-        <div class="section-card-2">
+        </li>
+                </div>
+                <div class="carousel-item">
+        <li class="section-card-1">
             <section>
                 <img class="card-img-1" src="../img/reviewed-img/victoria.png" alt="">
             </section>
@@ -38,9 +50,10 @@
                     yacht was beautifully designed, with all
                     the amenities we needed, and the crew was attentive and friendly.</p>
             </section>
-        </div>
-        <br><br>
-        <div class="section-card-1">
+        </li>
+                </div>
+                <div class="carousel-item">
+        <li class="section-card-1">
             <section>
                 <img class="card-img-1" src="../img/reviewed-img/ihor.png" alt="">
             </section>
@@ -52,6 +65,21 @@
                     spacious and elegant, and the outdoor
                     areas were perfect for relaxing and entertaining. Worth every penny!</p>
             </section>
+        </li>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </section>
+
 </section>
+
+
