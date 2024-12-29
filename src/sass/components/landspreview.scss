@@ -1,46 +1,88 @@
-.baground{
+.baground {
     color: darkblue;
     width: 1520px;
     height: 1000px;
 }
-.container{
-  width: 1240px;  
+
+.container {
+    width: 1240px;
 }
-.list{
+@media screen and (min-width:360px) {
+    .container{
+        height: 1700px;
+    }
+}
+.list {
     list-style: none;
 }
-.list1{
-position: relative;
-left: 150px;
-}
-.list2{
-   position: relative; 
-   left: 810px;
-   bottom: 305px;
-    
-}
-.list3{
+
+.list1 {
     position: relative;
-        left: 420px;
-        bottom: 270px;
+    left: 150px;
 }
+
+@media screen and (min-width:360px) {
+    .list1 {
+        position: relative;
+        left: -424px;
+    }
+}
+
+.list2 {
+    position: relative;
+    left: 810px;
+    bottom: 305px;
+
+}
+
+.list3 {
+    position: relative;
+    left: 420px;
+    bottom: 270px;
+}
+
 .width-butt {
     width: 80px;
     height: 30px;
     border-radius: 16px;
     font-size: 13px;
 }
-.first-butt{
-position: relative;
-bottom: 25px;
-right: 550px;
-}
-.second-butt{
+
+.first-butt {
     position: relative;
-bottom: 17px;
-right: 310px
+    bottom: 25px;
+    right: 550px;
 }
-.third-butt{
+
+@media screen and (min-width:360px) {
+    .first-butt {
+        position: relative;
+        left: 40px;
+        top: -60px;
+    }
+}
+
+.second-butt {
+    position: relative;
+    bottom: 17px;
+    right: 310px
+}
+
+@media screen and (min-width:360px) {
+    .list2{
+        position: relative;   
+        left: -173px;
+        top: -5px;
+     }
+}
+@media screen and (min-width:360px) {
+    .second-butt{
+        position: relative;
+        left: -330px;
+        top: -30px;
+    }
+}
+.third-butt {
     position: relative;
     bottom: 23px;
     right: 300px;
