@@ -24,10 +24,33 @@
   min-width: 400px;
   min-height: 300px;
   padding: 15px;
-  background-color: skyblue;
+  background-color: #1F212D;
   transform: translate(-50%, -50%);
 }
 
 .btn-open {
   margin-bottom: 100px;
+}
+
+.btn {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.rddbs1 {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.rddbd1 {
+  width: 265px;
+  height: 265px;
+  transform: rotate(-45.074deg);
+  flex-shrink: 0;
+  border-radius: 265px;
+  opacity: 0.6;
+  background: #91AFBA;
+  filter: blur(100px);
 }/*# sourceMappingURL=rent-a-yacht-now.css.map */
