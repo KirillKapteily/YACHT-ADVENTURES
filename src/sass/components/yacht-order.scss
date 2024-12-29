@@ -53,15 +53,16 @@ body {
     position: relative;
     bottom: 150px;
     margin-left: 199px;
+    transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s, border cubic-bezier(0.075, 0.82, 0.165, 1) 1s, color cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
 
     &:hover {
+        transform: scale(1.1);
         color: rgb(147, 171, 174);
         border: rgb(147, 171, 174) 1px solid;
     }
 }
 
 .yact-title {
-    /* h2 */
     position: relative;
     bottom: 200px;
     color: rgb(246, 245, 239);
@@ -73,6 +74,13 @@ body {
     text-align: left;
     z-index: 10;
     margin-left: 199px;
+    transition: text-shadow cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s, transform cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+
+
+    &:hover {
+        transform: rotate(2deg);
+        text-shadow: #91afba 1px 0 10px;
+    }
 }
 
 .decor {
@@ -83,7 +91,7 @@ body {
     height: 414px;
     position: absolute;
     left: 324px;
-    top: 581px;
+    top: 1781px;
 }
 
 .decor-2 {
@@ -93,8 +101,8 @@ body {
     width: 216px;
     height: 216px;
     position: absolute;
-    left: 784px;
-    top: 661px;
+    left: 884px;
+    top: 1951px;
 }
 
 .dm-sanst {
@@ -115,6 +123,14 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+}
+
+.yact-img {
+    transition: transform 0.5s;
+
+    &:hover {
+        transform: rotate(5deg);
+    }
 }
 
 @media (min-width:1220px) {
@@ -208,7 +224,6 @@ body {
 
 
     .yact-title {
-        /* h2 */
         position: relative;
         bottom: 50px;
         font-size: 36px;
