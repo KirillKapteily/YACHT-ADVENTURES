@@ -8,11 +8,7 @@
     width: 1240px;
     
 }
-@media screen and (min-width:360px) {
-    .container{
-        height: 1900px;
-    }
-}
+
 .list {
     list-style: none;
 }
@@ -86,11 +82,18 @@
     .second-butt{
         position: relative;
         left: -330px;
-        top: -30px;
+        top: 120px;
     }
 }
 .third-butt {
     position: relative;
     bottom: 23px;
     right: 300px;
+}
+@media screen and (min-width:360px) {
+    .third-butt{
+        position: relative;
+        top: 95px;
+        left: -310px;
+    }
 }
