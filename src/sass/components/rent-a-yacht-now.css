@@ -20,9 +20,10 @@
 .modal {
   position: absolute;
   top: 50%;
+  width: 570px;
+  height: 522px;
   left: 50%;
-  min-width: 400px;
-  min-height: 300px;
+  border-radius: 40px;
   padding: 15px;
   background-color: #1F212D;
   transform: translate(-50%, -50%);
@@ -47,10 +48,25 @@
 .rddbd1 {
   width: 265px;
   height: 265px;
-  transform: rotate(-45.074deg);
   flex-shrink: 0;
   border-radius: 265px;
   opacity: 0.6;
   background: #91AFBA;
   filter: blur(100px);
+  z-index: 3;
+  margin-top: 10.63px;
+  margin-bottom: -30.88px;
+  margin-left: 97px;
+  margin-right: 97.72px;
+}
+
+.rddbdi1 {
+  width: 338px;
+  height: 198px;
+  flex-shrink: 0;
+  z-index: 4;
+  margin-top: 97px;
+  margin-bottom: 21px;
+  margin-left: 116px;
+  margin-right: 116px;
 }/*# sourceMappingURL=rent-a-yacht-now.css.map */
