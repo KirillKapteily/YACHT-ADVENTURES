@@ -9,6 +9,11 @@
   height: 1000px;
 }
 
+@media screen and (max-width: 767px) {
+  .baground {
+    height: 1350px;
+  }
+}
 .list-style {
   list-style: none;
 }
@@ -165,6 +170,12 @@
   font-size: 20px;
 }
 
+@media screen and (min-width: 1208px) {
+  .p-color {
+    position: relative;
+    top: -700px;
+  }
+}
 @media screen and (max-width: 767px) {
   .p-color {
     margin-top: 100px;
@@ -185,8 +196,9 @@
 @media screen and (max-width: 767px) {
   .p-1 {
     position: relative;
-    left: 20px;
-    margin-top: 200px;
+    left: 1px;
+    margin-top: 190px;
+    font-size: 14px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -199,13 +211,26 @@
   position: relative;
   bottom: 1170px;
   color: white;
-  left: 1070px;
 }
 
+@media screen and (max-width: 767px) {
+  .p-2 {
+    position: relative;
+    left: 180px;
+    margin-top: 46px;
+    font-size: 14px;
+  }
+}
 @media screen and (min-width: 768px) {
   .p-2 {
     left: 500px;
     bottom: 990px;
+  }
+}
+@media screen and (min-width: 1208px) {
+  .first-sec {
+    position: relative;
+    top: -260px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -238,5 +263,19 @@
 @media screen and (max-width: 767px) {
   .media3 {
     margin-top: 2px;
+  }
+}
+@media screen and (min-width: 1208px) {
+  .second-sec {
+    position: relative;
+    left: 590px;
+    top: 190px;
+  }
+}
+@media screen and (min-width: 1208px) {
+  .list-p {
+    position: relative;
+    left: 400px;
+    top: -120px;
   }
 }/*# sourceMappingURL=hero.css.map */
