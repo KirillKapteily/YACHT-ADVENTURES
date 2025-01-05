@@ -1,1 +1,58 @@
-/*# sourceMappingURL=sliders.css.map */
+.whole-section {
+  height: 500px;
+}
+
+.section-info {
+  margin-left: 20px;
+  margin-top: -450px;
+}
+
+.name-yacht {
+  color: var(--white, #F6F5EF);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+
+.type-yacht {
+  color: var(--white, #F6F5EF);
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%; /* 14.16px */
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+}
+
+.p-name {
+  color: var(--white, #F6F5EF);
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%; /* 16.52px */
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.p-info {
+  color: var(--white, #F6F5EF);
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%; /* 16.52px */
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.img {
+  width: 322px;
+  height: 268px;
+  flex-shrink: 0;
+}/*# sourceMappingURL=sliders.css.map */
