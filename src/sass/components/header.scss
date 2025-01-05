@@ -5,6 +5,11 @@ body {
     background-color: #0d0d0d; 
     color: white;
   }
+  header{
+    position: fixed; 
+    width: 100%;
+    z-index: 100000;
+  }
   
   .navbar {
     display: flex;
