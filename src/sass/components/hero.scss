@@ -66,7 +66,13 @@ color: black !important;
 @media screen and (max-width:767px) {
     .our{
         position: relative;
-        margin-top: 20px;
+        margin-top: -5px;
+    }
+}
+@media screen and (max-width:1207px) {
+    .our{
+        position: relative;
+        top: -14px;
     }
 }
 .display34 {
@@ -348,5 +354,17 @@ color: black !important;
         position: relative;
         font-size: 17px;
         top: -720px;
+    }
+}
+@media screen and (max-width:1207px) {
+    .tablet-card{
+        position: relative;
+        top: -17px;
+    }
+}
+@media screen and (max-width:767px) {
+    .tablet-card {
+        position: relative;
+        top: 10px;
     }
 }
