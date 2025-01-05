@@ -8,6 +8,11 @@
   width: 1240px;
 }
 
+@media screen and (min-width: 360px) {
+  .container {
+    height: 1700px;
+  }
+}
 .list {
   list-style: none;
 }
@@ -17,6 +22,12 @@
   left: 150px;
 }
 
+@media screen and (min-width: 360px) {
+  .list1 {
+    position: relative;
+    left: -424px;
+  }
+}
 .list2 {
   position: relative;
   left: 810px;
@@ -42,12 +53,33 @@
   right: 550px;
 }
 
+@media screen and (min-width: 360px) {
+  .first-butt {
+    position: relative;
+    left: 40px;
+    top: -60px;
+  }
+}
 .second-butt {
   position: relative;
   bottom: 17px;
   right: 310px;
 }
 
+@media screen and (min-width: 360px) {
+  .list2 {
+    position: relative;
+    left: -173px;
+    top: -5px;
+  }
+}
+@media screen and (min-width: 360px) {
+  .second-butt {
+    position: relative;
+    left: -330px;
+    top: -30px;
+  }
+}
 .third-butt {
   position: relative;
   bottom: 23px;
