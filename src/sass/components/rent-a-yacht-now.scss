@@ -38,6 +38,10 @@
     width: 24px;
     height: 24px;
     flex-shrink: 0;
+    border: none;
+    background-color: #1F212D;
+    margin-top: 32px;
+    margin-left: 514px;
 }
 
 .rddbs1 {
@@ -49,10 +53,37 @@
 .rddbd1 {
     width: 265px;
     height: 265px;
-    transform: rotate(-45.074deg);
     flex-shrink: 0;
     border-radius: 265px;
     opacity: 0.6;
     background: #91AFBA;
     filter: blur(100px);
+    z-index: 3;
+    margin-top: 65.26px;
+    margin-bottom: -8px;
+    margin-left: 97px;
+    margin-right: 97.72px;
+}
+
+.rddbdi1 {
+    width: 338px;
+    height: 198px;
+    flex-shrink: 0;
+    z-index: 4;
+    margin-top: -198px;
+    margin-bottom: 21px;
+    margin-left: 116px;
+    margin-right: 116px;
+}
+
+.rdddp1 {
+    color: var(--white, #F6F5EF);
+    font-family: "DM Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 38.4px */
+    letter-spacing: -1.44px;
+    width: 282px;
 }
