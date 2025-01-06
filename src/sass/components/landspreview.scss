@@ -66,7 +66,7 @@
     padding: 0;
 }
 
-@media screen and (min-width:360px) {
+@media screen and (max-width:1207px) {
     .first-butt {
         position: relative;
         left: 40px;
@@ -81,7 +81,7 @@
     right: 310px
 }
 
-@media screen and (min-width:360px) {
+@media screen and (max-width:710px) {
     .list2 {
         position: relative;
         left: -173px;
@@ -89,7 +89,7 @@
     }
 }
 
-@media screen and (min-width:360px) {
+@media screen and (max-width:710px) {
     .second-butt {
         position: relative;
         left: -330px;
