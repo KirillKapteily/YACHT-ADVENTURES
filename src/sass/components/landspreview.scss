@@ -1,6 +1,6 @@
 .baground {
     color: darkblue;
-    width: 1520px;
+    width: 1381px;
     height: 1000px;
 }
 
@@ -22,7 +22,7 @@
     left: 150px;
 }
 
-@media screen and (min-width:360px) {
+@media screen and (max-width:709px) {
     .list1 {
         position: relative;
         left: -424px;
@@ -66,7 +66,7 @@
     padding: 0;
 }
 
-@media screen and (min-width:360px) {
+@media screen and (max-width:1207px) {
     .first-butt {
         position: relative;
         left: 40px;
@@ -81,7 +81,7 @@
     right: 310px
 }
 
-@media screen and (min-width:360px) {
+@media screen and (min-width:710px) {
     .list2 {
         position: relative;
         left: -173px;
@@ -89,13 +89,13 @@
     }
 }
 
-@media screen and (min-width:360px) {
+@media screen and (min-width:710px) {
     .second-butt {
         position: relative;
         left: -330px;
         top: 120px;
     }
-}
+}    
 
 .third-butt {
     padding: 5px 5px 5px 5px;
@@ -103,8 +103,8 @@
     bottom: 23px;
     right: 300px;
 }
-
-@media screen and (min-width:360px) {
+ 
+@media screen and (max-width:709px) {
     .third-butt {
         position: relative;
         top: 95px;
