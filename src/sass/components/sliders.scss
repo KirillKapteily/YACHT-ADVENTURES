@@ -112,9 +112,11 @@
        position: absolute;
        top: 50%;
        transform: translateY(-50%);
-       background: #333;
+       background: #33333300;
        color: white;
-       border: none;
+       border: white 1px solid;
+       border-radius: 50px;
+       padding: 50px 10px;
        padding: 10px;
        cursor: pointer;
    }
@@ -176,4 +178,29 @@
        font-optical-sizing: auto;
        font-weight: 500;
        font-style: normal;
+   }
+
+   @media (min-width:768px) and (max-width:1219px) {
+
+    .slider {
+        max-width: 784px;
+    }
+
+   }
+
+   @media (min-width:320px) and (max-width:480px) {
+
+    .slider {
+        max-width: 385px;
+    }
+
+.slide{
+    width: 335px;
+}
+
+.slide-img{
+    width: 312px;
+    height: 268px;
+}
+
    }
