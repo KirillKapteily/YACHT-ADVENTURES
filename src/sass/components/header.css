@@ -5,6 +5,12 @@ body {
   color: white;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100000;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
