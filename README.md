@@ -1,8 +1,8 @@
 # 🚀 Yacht Adventures wait you in January!
 
-![License](https://img.shields.io/github/license/yourusername/YACHT-ADVENTURES)
-![Stars](https://img.shields.io/github/stars/yourusername/YACHT-ADVENTURES)
-![Issues](https://img.shields.io/github/issues/yourusername/YACHT-ADVENTURES)
+![License](https://img.shields.io/github/license/KirillKapteily/YACHT-ADVENTURES)
+![Stars](https://img.shields.io/github/stars/KirillKapteily/YACHT-ADVENTURES)
+![Issues](https://img.shields.io/github/issues/KirillKapteily/YACHT-ADVENTURES)
 
 **A brief description of your project goes here.**  
 We are a team of Front-End Developers which are making this project! If you wan to join us the link is in my bio!

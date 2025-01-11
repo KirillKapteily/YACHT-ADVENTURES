@@ -3,7 +3,9 @@
     margin: 0 auto;
 }
 
-
+.color12{
+color: black !important;
+}
 
 .baground {
     background-color: rgb(17, 19, 31);
@@ -61,7 +63,18 @@
 .color0 {
     color: black;
 }
-
+@media screen and (max-width:767px) {
+    .our{
+        position: relative;
+        margin-top: -5px;
+    }
+}
+@media screen and (max-width:1207px) {
+    .our{
+        position: relative;
+        top: -14px;
+    }
+}
 .display34 {
     position: relative;
     bottom: 565px;
@@ -102,7 +115,13 @@
     bottom: 690px;
     left: 30px;
 }
-
+@media screen and (max-width:767px) {
+    .width{
+        position: relative;
+       left: 15px;
+       padding-top: 15px;
+    }
+}
 .width2 {
     left: 100px;
     position: relative;
@@ -281,25 +300,33 @@
 
 @media screen and (max-width:767px) {
     .media1 {
-        margin-top: 10px;
+        margin-top: 20px;
 
     }
 }
-
+.media1 {
+    margin-top: 20px;
+}
 @media screen and (max-width:767px) {
     .media2 {
-        margin-top: 2px;
+        margin-top: 8px;
 
     }
 }
+.media2 {
+    margin-top: 8px;
 
+}
 @media screen and (max-width:767px) {
     .media3 {
-        margin-top: 2px;
+        margin-top: 7px;
 
     }
 }
+ .media3 {
+     margin-top: 7px;
 
+ }
 @media screen and (min-width:1208px) {
     .second-sec{
         position: relative;
@@ -312,5 +339,32 @@
         position: relative;
         left: 400px;
         top: -120px;
+    }
+}
+@media screen and (max-width:1207px) {
+    .width{
+        position: relative;
+       font-size: 35px;
+       top: -670px;
+       left: 10px;
+    }
+}
+@media screen and (max-width:1207px) {
+    .width2 {
+        position: relative;
+        font-size: 17px;
+        top: -720px;
+    }
+}
+@media screen and (max-width:1207px) {
+    .tablet-card{
+        position: relative;
+        top: -17px;
+    }
+}
+@media screen and (max-width:767px) {
+    .tablet-card {
+        position: relative;
+        top: 10px;
     }
 }
