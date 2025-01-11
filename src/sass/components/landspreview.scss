@@ -1,16 +1,18 @@
 .baground {
     color: darkblue;
-    width: 1520px;
+    width: 1381px;
     height: 1000px;
 }
 
 .container {
     width: 1240px;
-    
+
 }
-.col{
-    color: black !important; 
+
+.col {
+    color: black !important;
 }
+
 .list {
     list-style: none;
 }
@@ -20,7 +22,7 @@
     left: 150px;
 }
 
-@media screen and (min-width:360px) {
+@media screen and (max-width:709px) {
     .list1 {
         position: relative;
         left: -424px;
@@ -39,13 +41,17 @@
     left: 420px;
     bottom: 270px;
 }
+
 @media screen and (min-width:360px) {
-    .list3{
+    .list3 {
         position: relative;
         left: -410px;
         top: 20px;
+
     }
+
 }
+
 .width-butt {
     width: 80px;
     height: 30px;
@@ -60,7 +66,7 @@
     padding: 0;
 }
 
-@media screen and (min-width:360px) {
+@media screen and (max-width:1207px) {
     .first-butt {
         position: relative;
         left: 40px;
@@ -69,35 +75,37 @@
 }
 
 .second-butt {
-    
+
     position: relative;
     bottom: 17px;
     right: 310px
-    
 }
 
-@media screen and (min-width:360px) {
-    .list2{
-        position: relative;   
+@media screen and (min-width:710px) {
+    .list2 {
+        position: relative;
         left: -173px;
         top: -5px;
-     }
+    }
 }
-@media screen and (min-width:360px) {
-    .second-butt{
+
+@media screen and (min-width:710px) {
+    .second-butt {
         position: relative;
         left: -330px;
         top: 120px;
     }
-}
+}    
+
 .third-butt {
-    padding:5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
     position: relative;
     bottom: 23px;
     right: 300px;
 }
-@media screen and (min-width:360px) {
-    .third-butt{
+ 
+@media screen and (max-width:709px) {
+    .third-butt {
         position: relative;
         top: 95px;
         left: -310px;

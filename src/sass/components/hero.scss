@@ -122,6 +122,14 @@ color: black !important;
        padding-top: 15px;
     }
 }
+@media screen and (min-width:1208px) {
+    .width {
+        position: relative;
+        left: 10px;
+        font-size: 35px;
+        
+    }
+}
 .width2 {
     left: 100px;
     position: relative;
