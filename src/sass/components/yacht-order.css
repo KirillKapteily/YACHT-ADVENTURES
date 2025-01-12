@@ -13,8 +13,8 @@ body {
 }
 
 .img-1 {
-  width: 704px;
-  height: 631px;
+  width: 533px;
+  height: 473px;
 }
 
 .img-3 {
@@ -27,7 +27,7 @@ body {
 
 .img-2 {
   position: relative;
-  top: 50px;
+  top: 130px;
   margin-right: 31px;
   width: 308px;
   height: 289px;
@@ -88,7 +88,7 @@ body {
   height: 414px;
   position: absolute;
   left: 324px;
-  top: 1781px;
+  top: 1581px;
 }
 
 .decor-2 {
@@ -99,7 +99,7 @@ body {
   height: 216px;
   position: absolute;
   left: 884px;
-  top: 1951px;
+  top: 1751px;
 }
 
 .dm-sanst {
@@ -143,14 +143,14 @@ body {
   }
   .img-2 {
     margin-right: 31px;
-    top: 950px;
+    top: 780px;
   }
   .img-cont {
     width: 704px;
   }
   .yact-title {
     position: relative;
-    bottom: 170px;
+    bottom: 70px;
     font-size: 70px;
   }
   .center {
@@ -166,6 +166,8 @@ body {
   }
   .yacht-rent {
     margin-left: 0px;
+    bottom: 50px;
+    position: relative;
   }
   .yact-title {
     margin-left: 0px;
@@ -183,7 +185,7 @@ body {
     width: 335px;
   }
   .yacht-rent {
-    margin-top: 100px;
+    margin-top: 120px;
     margin-left: 0px;
   }
   .img-1 {

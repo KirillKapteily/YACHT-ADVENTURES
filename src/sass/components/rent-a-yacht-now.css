@@ -1,3 +1,14 @@
+.rd1 {
+  background-color: #11131F;
+  max-width: 1280px;
+  max-height: 5821px;
+  outline: #ff0000 1px solid;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 188px;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -37,6 +48,10 @@
   width: 24px;
   height: 24px;
   flex-shrink: 0;
+  border: none;
+  background-color: #1F212D;
+  margin-top: 32px;
+  margin-left: 514px;
 }
 
 .rddbs1 {
@@ -54,8 +69,8 @@
   background: #91AFBA;
   filter: blur(100px);
   z-index: 3;
-  margin-top: 10.63px;
-  margin-bottom: -30.88px;
+  margin-top: 65.26px;
+  margin-bottom: -8px;
   margin-left: 97px;
   margin-right: 97.72px;
 }
@@ -65,8 +80,37 @@
   height: 198px;
   flex-shrink: 0;
   z-index: 4;
-  margin-top: 97px;
+  margin-top: -198px;
   margin-bottom: 21px;
   margin-left: 116px;
   margin-right: 116px;
+}
+
+.rdddp1 {
+  color: var(--white, #F6F5EF);
+  font-family: "DM Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  /* 38.4px */
+  letter-spacing: -1.44px;
+  width: 282px;
+}
+
+.rdddp2 {
+  width: 442px;
+  color: #F6F5EF;
+  /* main text */
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+  letter-spacing: -0.32px;
+}
+
+.liststylenone {
+  list-style: none;
 }/*# sourceMappingURL=rent-a-yacht-now.css.map */
