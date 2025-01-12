@@ -37,11 +37,6 @@ body {
     background-color: rgb(17, 19, 31);
 }
 
-.back-2 {
-    background-image: url(../../img/yact-order/lines.svg);
-    background-position: -100px 500px;
-}
-
 .yacht-title {
     text-align: center;
     display: flex;
@@ -144,7 +139,7 @@ body {
     }
 }
 
-@media (min-width:768px) and (max-width:1219px) {
+@media (min-width:704px) and (max-width:1219px) {
     .container {
         width: 704px;
     }
@@ -243,7 +238,6 @@ body {
         top: 100px;
 
         margin-top: 240px;
-        
     }
 
     .decor {
@@ -253,5 +247,4 @@ body {
         top: 1200px;
         left: 100px;
     }
-    
 }
