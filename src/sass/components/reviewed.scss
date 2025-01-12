@@ -65,7 +65,7 @@
 }
 
 .h2-john {
-  color: var(--white, #f6f5ef);
+  color: var(--white, white);
   text-align: center;
   font-family: "DM Sans";
   font-size: 18px;
@@ -110,7 +110,6 @@
   align-items: flex-start;
   gap: 8px;
   border-radius: 72px;
-  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 }
 
 .section-card-2 {
@@ -204,3 +203,50 @@ height: 208px;
   }
   
 }
+    .slider {
+      position: relative;
+      width: 80%;
+      max-width: 600px;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .slider__track {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slider__slide {
+      min-width: 100%;
+      transition: opacity 0.5s;
+    }
+
+    .slider__slide img {
+      width: 100%;
+      display: block;
+      border-radius: 10px;
+    }
+
+    .slider__controls {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+
+    .slider__button {
+      background: rgba(0, 0, 0, 0.5);
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 50%;
+      transition: background 0.3s;
+    }
+
+    .slider__button:hover {
+      background: rgba(0, 0, 0, 0.8);
+    }
