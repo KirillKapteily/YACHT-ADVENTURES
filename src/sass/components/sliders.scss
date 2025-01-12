@@ -62,7 +62,10 @@
        flex-shrink: 0;
    }
 
-
+.container{
+    max-width: 1300px;
+    border: white 2px;
+}
 
 
 
@@ -71,6 +74,7 @@
        width: 1194px;
        overflow: hidden;
        border-radius: 10px;
+       align-items: center;
    }
 
    .slides {
