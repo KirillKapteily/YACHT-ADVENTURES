@@ -22,3 +22,6 @@ We are a team of Front-End Developers which are making this project! If you wan 
    git clone https://github.com/yourusername/yourrepository.git
    npm i
    npm run dev
+
+
+## We are sorry but our slider on the section "Reviewed" does not working becuase of the same js like on the other slider. Again We are sorry. :(
