@@ -22,12 +22,7 @@
     left: 150px;
 }
 
-@media screen and (max-width:709px) {
-    .list1 {
-        position: relative;
-        left: -424px;
-    }
-}
+
 
 .list2 {
     position: relative;
@@ -36,20 +31,26 @@
 
 }
 
+@media screen and (max-width:710px) {
+    .list2 {
+        position: relative;
+        left: -170px;
+        bottom: -5px;
+    }
+}
+
 .list3 {
     position: relative;
     left: 420px;
     bottom: 270px;
 }
 
-@media screen and (min-width:360px) {
+@media screen and (max-width:710px) {
     .list3 {
         position: relative;
-        left: -410px;
-        top: 20px;
-
+        left: -425px;
+        bottom: -30px;
     }
-
 }
 
 .width-butt {
@@ -66,13 +67,14 @@
     padding: 0;
 }
 
-@media screen and (max-width:1207px) {
+@media screen and (max-width:710px) {
     .first-butt {
         position: relative;
         left: 40px;
-        top: -60px;
+        bottom: 60px;
     }
 }
+
 
 .second-butt {
 
@@ -81,21 +83,15 @@
     right: 310px
 }
 
-@media screen and (min-width:710px) {
-    .list2 {
+@media screen and (max-width:710px) {
+    .second-butt {
         position: relative;
-        left: -173px;
-        top: -5px;
+        bottom: -115px;
+        left: -320px;
     }
 }
 
-@media screen and (min-width:710px) {
-    .second-butt {
-        position: relative;
-        left: -330px;
-        top: 120px;
-    }
-}    
+
 
 .third-butt {
     padding: 5px 5px 5px 5px;
@@ -103,11 +99,19 @@
     bottom: 23px;
     right: 300px;
 }
- 
-@media screen and (max-width:709px) {
+
+@media screen and (max-width:710px) {
     .third-butt {
         position: relative;
-        top: 95px;
+        bottom: -90px;
         left: -310px;
+    }
+
+}
+
+@media screen and (max-width:710px) {
+    .list1 {
+        position: relative;
+        left: -420px;
     }
 }
