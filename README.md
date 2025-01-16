@@ -5,7 +5,7 @@
 ![Issues](https://img.shields.io/github/issues/KirillKapteily/YACHT-ADVENTURES)
 
 **A brief description of your project goes here.**  
-We are a team of Front-End Developers which are making this project! If you wan to join us the link is in my bio!
+We are a team of Front-End Developers which are making this project! If you want to join us the link is in my bio!
 
 ---
 
