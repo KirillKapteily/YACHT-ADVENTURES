@@ -1,116 +1,151 @@
-.rd1 {
-  background-color: #11131F;
-  max-width: 1280px;
-  max-height: 5821px;
-  outline: #ff0000 1px solid;
-  display: inline-flex;
-  justify-content: center;
-  align-items: flex-end;
-  gap: 188px;
+@media screen and (min-width: 965px) {
+  .rd1 {
+    background-color: #11131F;
+    max-width: 1280px;
+    max-height: 5821px;
+    outline: #ff0000 1px solid;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 188px;
+  }
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+  }
+  .backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .no-scroll {
+    overflow: hidden;
+  }
+  .modal {
+    position: absolute;
+    top: 50%;
+    width: 570px;
+    height: 522px;
+    left: 50%;
+    border-radius: 40px;
+    padding: 15px;
+    background-color: #1F212D;
+    transform: translate(-50%, -50%);
+  }
+  .btn-open {
+    margin-bottom: 100px;
+  }
+  .btn {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    border: none;
+    background-color: #1F212D;
+    margin-top: 32px;
+    margin-left: 514px;
+  }
+  .rddbs1 {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  .rddbd1 {
+    width: 265px;
+    height: 265px;
+    flex-shrink: 0;
+    border-radius: 265px;
+    opacity: 0.6;
+    background: #91AFBA;
+    filter: blur(100px);
+    z-index: 3;
+    margin-top: 65.26px;
+    margin-bottom: -8px;
+    margin-left: 97px;
+    margin-right: 97.72px;
+  }
+  .rddbdi1 {
+    width: 338px;
+    height: 198px;
+    flex-shrink: 0;
+    z-index: 4;
+    margin-top: -198px;
+    margin-bottom: 21px;
+    margin-left: 116px;
+    margin-right: 116px;
+  }
+  .rdddp1 {
+    color: var(--white, #F6F5EF);
+    font-family: "DM Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 38.4px */
+    letter-spacing: -1.44px;
+    width: 282px;
+  }
+  .rdddp2 {
+    width: 442px;
+    color: #F6F5EF;
+    /* main text */
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+    letter-spacing: -0.32px;
+  }
+  .liststylenone {
+    list-style: none;
+  }
 }
-
-.backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 1;
-}
-
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-
-.no-scroll {
-  overflow: hidden;
-}
-
-.modal {
-  position: absolute;
-  top: 50%;
-  width: 570px;
-  height: 522px;
-  left: 50%;
-  border-radius: 40px;
-  padding: 15px;
-  background-color: #1F212D;
-  transform: translate(-50%, -50%);
-}
-
-.btn-open {
-  margin-bottom: 100px;
-}
-
-.btn {
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
-  border: none;
-  background-color: #1F212D;
-  margin-top: 32px;
-  margin-left: 514px;
-}
-
-.rddbs1 {
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
-}
-
-.rddbd1 {
-  width: 265px;
-  height: 265px;
-  flex-shrink: 0;
-  border-radius: 265px;
-  opacity: 0.6;
-  background: #91AFBA;
-  filter: blur(100px);
-  z-index: 3;
-  margin-top: 65.26px;
-  margin-bottom: -8px;
-  margin-left: 97px;
-  margin-right: 97.72px;
-}
-
-.rddbdi1 {
-  width: 338px;
-  height: 198px;
-  flex-shrink: 0;
-  z-index: 4;
-  margin-top: -198px;
-  margin-bottom: 21px;
-  margin-left: 116px;
-  margin-right: 116px;
-}
-
-.rdddp1 {
-  color: var(--white, #F6F5EF);
-  font-family: "DM Sans";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 120%;
-  /* 38.4px */
-  letter-spacing: -1.44px;
-  width: 282px;
-}
-
-.rdddp2 {
-  width: 442px;
-  color: #F6F5EF;
-  /* main text */
-  font-family: "DM Sans";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%;
-  /* 22.4px */
-  letter-spacing: -0.32px;
-}
-
-.liststylenone {
-  list-style: none;
+@media screen and (max-width: 375px) {
+  .spawn {
+    background-color: #11131F;
+    width: 100%;
+  }
+  .rsu1 {
+    list-style: none;
+  }
+  .rsuli1 {
+    border: none;
+  }
+  .rsuli2 {
+    border: none;
+  }
+  .rsult1 {
+    border: none;
+  }
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+  }
+  .backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .no-scroll {
+    overflow: hidden;
+  }
+  .modal {
+    width: 335px;
+    height: 396px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #1F212D;
+    transform: translate(-50%, -50%);
+  }
 }/*# sourceMappingURL=rent-a-yacht-now.css.map */
