@@ -31,13 +31,7 @@
 
 }
 
-@media screen and (max-width:710px) {
-    .list2 {
-        position: relative;
-        left: -170px;
-        bottom: -5px;
-    }
-}
+
 
 .list3 {
     position: relative;
@@ -45,13 +39,7 @@
     bottom: 270px;
 }
 
-@media screen and (max-width:710px) {
-    .list3 {
-        position: relative;
-        left: -425px;
-        bottom: -30px;
-    }
-}
+
 
 .width-butt {
     width: 80px;
@@ -67,13 +55,7 @@
     padding: 0;
 }
 
-@media screen and (max-width:710px) {
-    .first-butt {
-        position: relative;
-        left: 40px;
-        bottom: 60px;
-    }
-}
+
 
 
 .second-butt {
@@ -83,13 +65,7 @@
     right: 310px
 }
 
-@media screen and (max-width:710px) {
-    .second-butt {
-        position: relative;
-        bottom: -115px;
-        left: -320px;
-    }
-}
+
 
 
 
@@ -100,18 +76,41 @@
     right: 300px;
 }
 
-@media screen and (max-width:710px) {
+
+
+@media (min-width:710px) and (max-width:1219px) {
+    .list1 {
+        position: relative;
+        left: -420px;
+    }
+
     .third-butt {
         position: relative;
         bottom: -90px;
         left: -310px;
     }
 
-}
-
-@media screen and (max-width:710px) {
-    .list1 {
+    .second-butt {
         position: relative;
-        left: -420px;
+        bottom: -115px;
+        left: -320px;
+    }
+
+    .first-butt {
+        position: relative;
+        left: 40px;
+        bottom: 60px;
+    }
+
+    .list3 {
+        position: relative;
+        left: -425px;
+        bottom: -30px;
+    }
+
+    .list2 {
+        position: relative;
+        left: -170px;
+        bottom: -5px;
     }
 }
