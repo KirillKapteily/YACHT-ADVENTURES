@@ -20,14 +20,14 @@ body {
 .img-3 {
     position: relative;
     left: 255px;
-    margin-top: 70px;
+    margin-top: 104px;
     width: 260px;
     height: 244px;
 }
 
 .img-2 {
     position: relative;
-    top: 130px;
+    top: 160px;
     margin-right: 31px;
     width: 308px;
     height: 289px;
@@ -54,7 +54,7 @@ body {
     bottom: 150px;
     margin-left: 199px;
     transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s, border cubic-bezier(0.075, 0.82, 0.165, 1) 1s, color cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
-
+    padding: 10px 28px;
     &:hover {
         transform: scale(1.1);
         color: rgb(147, 171, 174);
@@ -90,8 +90,8 @@ body {
     width: 414px;
     height: 414px;
     position: absolute;
-    left: 324px;
-    top: 1581px;
+    left: 304px;
+    top: 1631px;
 }
 
 .decor-2 {
@@ -102,7 +102,7 @@ body {
     height: 216px;
     position: absolute;
     left: 884px;
-    top: 1751px;
+    top: 1721px;
 }
 
 .dm-sanst {
@@ -125,13 +125,15 @@ body {
     font-style: normal;
 }
 
-.yact-img {
-    transition: transform 0.5s;
 
-    &:hover {
-        transform: rotate(5deg);
-    }
-}
+// .yact-img {
+//     transition: transform 0.5s, filter 0.5s;
+
+//     &:hover {
+//         transform: rotate(5deg);
+//         filter: drop-shadow(0 0 10px #91afba);
+//     }
+// }
 
 @media (min-width:1220px) {
     .yact-imgm {
@@ -182,6 +184,7 @@ body {
         margin-left: 0px;
         bottom: 50px;
         position: relative;
+
     }
 
     .yact-title {
@@ -192,8 +195,14 @@ body {
 
     .decor {
         position: absolute;
-        top: 1200px;
-        left: 100px;
+        top: 2155px;
+        left: 80px;
+    }
+
+    .decor-2{
+        position: absolute;
+        top: 2245px;
+        left: 570px;
     }
 }
 
@@ -244,7 +253,19 @@ body {
         position: absolute;
         width: 255px;
         height: 255px;
-        top: 1200px;
-        left: 100px;
+        top: 2272px;
+        left: -10px;
     }
+    
+    .decor-2 {
+        position: absolute;
+        width: 255px;
+        height: 255px;
+        top: 2272px;
+        left: 140px;
+        filter: blur(200px);
+background: rgb(166, 169, 178);
+opacity: 0.3;
+    }
+    
 }
