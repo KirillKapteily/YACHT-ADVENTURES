@@ -37,6 +37,7 @@ body {
       width: 20px;
       height: 20px;
       margin-right: 10px;
+      
     }
 
     .footer__text {
@@ -84,6 +85,8 @@ body {
           width: 24px;
           height: 24px;
           transition: transform 0.3s ease;
+          opacity: 0;
+          filter: brightness(0);
 
           &:hover {
             transform: scale(1.1);
