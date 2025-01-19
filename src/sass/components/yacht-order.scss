@@ -55,6 +55,8 @@ body {
     margin-left: 199px;
     transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s, border cubic-bezier(0.075, 0.82, 0.165, 1) 1s, color cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
     padding: 10px 28px;
+    z-index: 100;
+
     &:hover {
         transform: scale(1.1);
         color: rgb(147, 171, 174);
@@ -74,12 +76,12 @@ body {
     text-align: left;
     z-index: 10;
     margin-left: 199px;
-    transition: text-shadow cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s, transform cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+    transition: filter cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s, transform cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
 
 
     &:hover {
         transform: rotate(2deg);
-        text-shadow: #91afba 1px 0 10px;
+        filter: drop-shadow(0 0 10px #91afba);
     }
 }
 
@@ -199,7 +201,7 @@ body {
         left: 80px;
     }
 
-    .decor-2{
+    .decor-2 {
         position: absolute;
         top: 2245px;
         left: 570px;
@@ -256,7 +258,7 @@ body {
         top: 2272px;
         left: -10px;
     }
-    
+
     .decor-2 {
         position: absolute;
         width: 255px;
@@ -264,8 +266,8 @@ body {
         top: 2272px;
         left: 140px;
         filter: blur(200px);
-background: rgb(166, 169, 178);
-opacity: 0.3;
+        background: rgb(166, 169, 178);
+        opacity: 0.3;
     }
-    
+
 }
