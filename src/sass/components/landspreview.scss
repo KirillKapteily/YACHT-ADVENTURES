@@ -81,7 +81,7 @@
 @media (min-width:710px) and (max-width:1219px) {
     .list1 {
         position: relative;
-        left: -420px;
+        left: -350px;
     }
 
     .third-butt {
@@ -104,13 +104,51 @@
 
     .list3 {
         position: relative;
-        left: -425px;
+        left: -350px;
         bottom: -30px;
     }
 
     .list2 {
         position: relative;
-        left: -170px;
+        left: -103px;
         bottom: -5px;
     }
+
+}
+@media (min-width:320px) and (max-width:480px){
+    .container{
+        width: 335px;
+    }
+    .list1{
+        position: relative;
+        left: -30px;
+        top: -90px;
+    }
+    .width5{
+        width: 335px;
+        height: 335px;
+    }
+        .first-butt{
+            position: relative;
+            left: -315px;
+            bottom: -130px;
+        }
+        .list2{
+            position: relative;
+            left: -30px;
+            top: -50px;
+        }
+        .second-butt{
+            top: 130px;
+            left: -320px;
+        }
+        .list3{
+            position: relative;
+            left: -30px;
+            top: -15px;
+        }
+        .third-butt{
+            left: -320px;
+            top: 130px;
+        }
 }
