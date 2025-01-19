@@ -162,6 +162,11 @@ margin-top: 142px;
   .h2-with-span{
     margin-left: 32px;
   }
+
+  .container{
+    display: inline-block;
+    max-width: 400px;
+  }
 }
 
 .section-card-1{
@@ -204,4 +209,11 @@ height: 208px;
 .section-card-1:hover{
   transform: scale(1.1);
   margin-top: 10px;
+}
+
+
+.container{
+  border: 5px red;
+  display: flex;
+  gap: 40px;
 }
