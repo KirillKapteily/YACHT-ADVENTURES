@@ -1,4 +1,80 @@
-@media screen and (min-width: 965px) {
+@media screen and (min-width: 800px) {
+    .rayn1 {
+        color: var(--white, #F6F5EF);
+        font-family: "DM Sans";
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 110%;
+        /* 66px */
+        letter-spacing: -2.7px;
+        width: 282px;
+    }
+
+    .rayn2 {
+        width: 282px;
+        height: 191px;
+    }
+
+    .pdd {
+        border: none;
+        background-color: #11131F;
+    }
+
+    .git {
+        width: 443px;
+        height: 1px;
+        color: #F6F5EF;
+    }
+
+    .fn1 {
+        width: 386px;
+        color: var(--white, #F6F5EF);
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        /* 19.2px */
+        letter-spacing: -0.72px;
+    }
+
+    .fn2 {
+        width: 386px;
+        color: var(--white, #F6F5EF);
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        /* 19.2px */
+        letter-spacing: -0.72px;
+    }
+
+    .fn3 {
+        width: 386px;
+        color: var(--white, #F6F5EF);
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        /* 19.2px */
+        letter-spacing: -0.72px;
+    }
+
+    .fn4 {
+        width: 386px;
+        color: var(--white, #F6F5EF);
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        /* 19.2px */
+        letter-spacing: -0.72px;
+    }
+
     .rd1 {
         background-color: #11131F;
         max-width: 1280px;
@@ -43,7 +119,30 @@
     }
 
     .btn-open {
+        background-color: #00000000;
         margin-bottom: 100px;
+        color: #F6F5EF;
+        font-family: "DM Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        /* 19.8px */
+        letter-spacing: -0.81px;
+        border-radius: 60px;
+        border: 1px solid var(--white, #F6F5EF);
+        display: flex;
+        padding: 14px 28px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+
+        .rdddbs2 {
+            width: 18px;
+            height: 8.66px;
+            fill: #F6F5EF;
+        }
+
     }
 
     .btn {
@@ -101,16 +200,22 @@
     }
 
     .rdddp2 {
+        border-radius: 60px;
+        border: 1px solid var(--white, #F6F5EF);
+        display: flex;
+        padding: 14px 28px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
         width: 442px;
         color: #F6F5EF;
-        /* main text */
         font-family: "DM Sans";
-        font-size: 16px;
+        font-size: 14px;
         font-style: normal;
-        font-weight: 400;
-        line-height: 140%;
-        /* 22.4px */
-        letter-spacing: -0.32px;
+        font-weight: 700;
+        line-height: 110%;
+        /* 15.4px */
+        letter-spacing: -0.63px;
     }
 
     .liststylenone {
@@ -119,7 +224,89 @@
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
+
+    .btn-open {
+        background-color: #00000000;
+        margin-bottom: 100px;
+        color: #F6F5EF;
+        font-family: "DM Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        /* 19.8px */
+        letter-spacing: -0.81px;
+        border-radius: 60px;
+        border: 1px solid var(--white, #F6F5EF);
+        display: flex;
+        padding: 14px 28px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+
+        .rdddbs2 {
+            width: 18px;
+            height: 8.66px;
+            fill: #F6F5EF;
+        }
+
+    }
+
+    .git {
+        width: 443px;
+        height: 1px;
+        color: #F6F5EF;
+    }
+
+    .fn1 {
+        color: var(--white, #F6F5EF);
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        /* 16.8px */
+        letter-spacing: -0.63px;
+        width: 335px;
+    }
+
+    .fn2 {
+        color: var(--white, #F6F5EF);
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        /* 16.8px */
+        letter-spacing: -0.63px;
+        width: 335px;
+    }
+
+    .fn3 {
+        color: var(--white, #F6F5EF);
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        /* 16.8px */
+        letter-spacing: -0.63px;
+        width: 335px;
+    }
+
+    .fn4 {
+        color: var(--white, #F6F5EF);
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        /* 16.8px */
+        letter-spacing: -0.63px;
+        width: 335px;
+    }
+
     .spawn {
         background-color: #11131F;
         width: 100%;
@@ -168,9 +355,9 @@
         position: absolute;
         top: 50%;
         left: 50%;
+        transform: translate(-50%, -50%);
         padding: 15px;
         border-radius: 20px;
         background-color: #1F212D;
-        transform: translate(-50%, -50%);
     }
 }
