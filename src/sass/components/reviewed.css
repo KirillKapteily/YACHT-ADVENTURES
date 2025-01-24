@@ -60,7 +60,7 @@
 }
 
 .h2-john {
-  color: var(--white, #f6f5ef);
+  color: var(--white, white);
   text-align: center;
   font-family: "DM Sans";
   font-size: 18px;
@@ -104,7 +104,6 @@
   align-items: flex-start;
   gap: 8px;
   border-radius: 72px;
-  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
 }
 
 .section-card-2 {
@@ -156,21 +155,8 @@
   .h2-with-span {
     margin-left: 32px;
   }
-  .section-card-1 {
-    margin-left: 5px;
-    margin-right: 0;
-    display: flex;
-    width: 444px;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-  }
-  .section-card-1 {
-    margin-left: 50px;
-  }
 }
 .section-card-1 {
-  margin-left: 1030px;
   width: 500px;
 }
 
@@ -189,7 +175,20 @@
   }
   .section-card-1 {
     display: flex;
-    width: 200px;
+    width: 250px;
     height: 208px;
   }
+}
+.section-card-1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+  transition: 0.25s ease-in-out;
+  margin-top: 20px;
+}
+
+.section-card-1:hover {
+  transform: scale(1.1);
+  margin-top: 10px;
 }/*# sourceMappingURL=reviewed.css.map */
