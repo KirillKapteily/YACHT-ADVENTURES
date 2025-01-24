@@ -1,45 +1,42 @@
+/* Загальні стилі */
 .baground {
     color: darkblue;
-    width: 1381px;
-    height: 1000px;
+    width: 100%;
+    padding: 20px;
 }
 
 .container {
-    width: 1240px;
-
-}
-
-.col {
-    color: black !important;
-}
-
-.list {
-    list-style: none;
-}
-
-.list1 {
-    position: relative;
-    left: 150px;
+    max-width: 1240px;
+    margin: 0 auto;
 }
 
 
 
-.list2 {
-    position: relative;
-    left: 810px;
-    bottom: 305px;
-
-}
-
-
-
+.list1,
+.list2,
 .list3 {
-    position: relative;
-    left: 420px;
-    bottom: 270px;
+    flex: 1 1 300px;
+    
+    max-width: 400px;
+    
+    text-align: center;
 }
 
+.first-img,
+.second-img,
+.width5 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
 
+.first-img:hover,
+.second-img:hover,
+.width5:hover {
+    transform: scale(1.05);
+   
+}
 
 .width-butt {
     width: 80px;
@@ -49,106 +46,51 @@
 }
 
 .first-butt {
-    position: relative;
-    bottom: 25px;
-    right: 550px;
-    padding: 0;
+    margin-top: 10px;
 }
-
-
-
 
 .second-butt {
-
-    position: relative;
-    bottom: 17px;
-    right: 310px
+    margin-top: 10px;
 }
-
-
-
-
 
 .third-butt {
-    padding: 5px 5px 5px 5px;
-    position: relative;
-    bottom: 23px;
-    right: 300px;
+    margin-top: 10px;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
+@media (max-width: 1024px) {
 
 
-@media (min-width:710px) and (max-width:1219px) {
-    .list1 {
-        position: relative;
-        left: -350px;
+    
+}
+
+@media (max-width: 768px) {
+
+
+    .list {
+        flex-direction: column;
+      
+        align-items: center;
     }
 
-    .third-butt {
-        position: relative;
-        bottom: -90px;
-        left: -310px;
-    }
-
-    .second-butt {
-        position: relative;
-        bottom: -115px;
-        left: -320px;
-    }
-
-    .first-butt {
-        position: relative;
-        left: 40px;
-        bottom: 60px;
-    }
-
+    .list1,
+    .list2,
     .list3 {
-        position: relative;
-        left: -350px;
-        bottom: -30px;
+        flex: 1 1 100%;
+        
     }
 
-    .list2 {
-        position: relative;
-        left: -103px;
-        bottom: -5px;
+    .width-butt {
+        font-size: 12px;
+        width: 70px;
+        height: 28px;
     }
-
-}
-@media (min-width:320px) and (max-width:480px){
-    .container{
-        width: 335px;
-    }
-    .list1{
-        position: relative;
-        left: -30px;
-        top: -90px;
-    }
-    .width5{
-        width: 335px;
-        height: 335px;
-    }
-        .first-butt{
-            position: relative;
-            left: -315px;
-            bottom: -130px;
-        }
-        .list2{
-            position: relative;
-            left: -30px;
-            top: -50px;
-        }
-        .second-butt{
-            top: 130px;
-            left: -320px;
-        }
-        .list3{
-            position: relative;
-            left: -30px;
-            top: -15px;
-        }
-        .third-butt{
-            left: -320px;
-            top: 130px;
-        }
 }
