@@ -15,6 +15,40 @@ body {
   color: $text-color;
 }
 
+.footer__text{
+  color: $text-color;
+}
+
+.fotter__icon{
+  width: 40px;
+  height: 40px;
+  fill: #f6f5ef;
+
+
+  &:hover{
+ fill: $accent-color;
+
+  }
+}
+
+.hr{
+  border: 1px solid rgba(246, 245, 239, 0.2);
+  width: 100%;
+  margin-bottom: 64px;
+}
+
+.decor__footer{
+  filter: blur(200px);
+/* light green */
+background: rgb(147, 171, 174);
+opacity: 0.9;
+position: absolute;
+width: 215px;
+height: 215px;
+left: 289px;
+top: 5765px;
+}
+
 .footer {
   background-color: $primary-color;
   padding: 20px 0;
@@ -45,9 +79,30 @@ body {
     }
   }
 
+
+
+  
+  .footer__cop{
+    color: $accent-color;
+    font-size: 14px;
+font-weight: 400;
+line-height: 118%;
+letter-spacing: 3%;
+  }
+.footer__bottom{
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 200px;
+}
+
+
+
   &__menu {
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     li {
       margin-left: 30px;
@@ -68,17 +123,22 @@ body {
     text-align: right;
 
     &-title {
-      margin-bottom: 10px;
+      margin-bottom: 16px;
       font-size: 14px;
+      color: $text-color;
+      text-align: left;
     }
 
     .footer__icons {
       display: flex;
       justify-content: flex-end;
 
+
+
       .footer__social-link {
         display: inline-block;
         margin-left: 10px;
+        color: $text-color;
 
         img {
           width: 24px;
