@@ -286,7 +286,7 @@ body {
 .img-3 {
     position: relative;
     left: 255px;
-    margin-top: 104px;
+    margin-top: 114px;
     width: 260px;
     height: 244px;
 }
@@ -313,7 +313,6 @@ body {
 .yacht-rent {
     background-color: transparent;
     color: aliceblue;
-    padding: 8px 18px;
     border: white 1px solid;
     border-radius: 50px;
     position: relative;
@@ -321,6 +320,7 @@ body {
     margin-left: 199px;
     transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s, border cubic-bezier(0.075, 0.82, 0.165, 1) 1s, color cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
     padding: 10px 28px;
+    z-index: 100;
     &:hover {
         transform: scale(1.1);
         color: rgb(147, 171, 174);
@@ -335,18 +335,10 @@ body {
     font-family: "DM Sans";
     font-size: 100px;
     font-weight: 500;
-    line-height: 110%;
     letter-spacing: -4.5%;
     text-align: left;
     z-index: 10;
     margin-left: 199px;
-    transition: text-shadow cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s, transform cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
-
-
-    &:hover {
-        transform: rotate(2deg);
-        text-shadow: #91afba 1px 0 10px;
-    }
 }
 
 .decor {
@@ -392,14 +384,7 @@ body {
 }
 
 
-// .yact-img {
-//     transition: transform 0.5s, filter 0.5s;
 
-//     &:hover {
-//         transform: rotate(5deg);
-//         filter: drop-shadow(0 0 10px #91afba);
-//     }
-// }
 
 @media (min-width:1220px) {
     .yact-imgm {
@@ -407,7 +392,7 @@ body {
     }
 }
 
-@media (min-width:704px) and (max-width:1219px) {
+@media (min-width:768px) and (max-width:1219px) {
     .container {
         width: 704px;
     }
