@@ -18,7 +18,7 @@ body {
   color: $text-color;
 }
 
-.fotter__icon {
+.footer__icon {
   width: 40px;
   height: 40px;
   fill: #f6f5ef;
@@ -32,7 +32,7 @@ body {
 
 
 
-.fotter__icon__up {
+.footer__icon__up {
   width: 30px;
   height: 30px;
   fill: #f6f5ef;
@@ -41,8 +41,8 @@ body {
 
 .footer__up{
   display: flex;
-  justify-content: flex-end!important;
-  margin-right: 20px;
+  justify-content: flex-end;
+  // margin-left: 1100px;
 }
 
 .up__button {
@@ -196,11 +196,17 @@ body {
 }
 
 
+
 @media (min-width:768px) and (max-width:1219px) {
   .footer__menu {
     flex-direction: column;
     gap: 24px;
 
+  }
+
+  .footer__up{
+    margin-left: 0px;
+    justify-content: flex-end;
   }
 
   .decor__footer{
@@ -214,6 +220,10 @@ body {
     gap: 24px;
     align-items: flex-start;
     padding-left: 0px;
+  }
+
+  .footer__up{
+    justify-content: flex-end;
   }
 
   .footer__container {
