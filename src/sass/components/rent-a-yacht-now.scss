@@ -17,6 +17,7 @@
     }
 
     .pdd {
+        color: #F6F5EF;
         border: none;
         background-color: #11131F;
     }
@@ -136,13 +137,12 @@
         justify-content: center;
         align-items: center;
         gap: 16px;
+    }
 
-        .rdddbs2 {
-            width: 18px;
-            height: 8.66px;
-            fill: #F6F5EF;
-        }
-
+    .rdddbs2 {
+        width: 18px;
+        height: 8.66px;
+        fill: #F6F5EF;
     }
 
     .btn {
@@ -224,7 +224,27 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 300px) {
+
+    .smowripididi1 {
+        width: 335px;
+        height: 33px;
+    }
+
+    .smowripididi2 {
+        width: 335px;
+        height: 33px;
+    }
+
+    .smowripididi3 {
+        width: 335px;
+        height: 33px;
+    }
+
+    .smowripididi4 {
+        width: 335px;
+        height: 75px;
+    }
 
     .btn-open {
         background-color: #00000000;
@@ -244,13 +264,12 @@
         justify-content: center;
         align-items: center;
         gap: 16px;
+    }
 
-        .rdddbs2 {
-            width: 18px;
-            height: 8.66px;
-            fill: #F6F5EF;
-        }
-
+    .rdddbs2 {
+        width: 18px;
+        height: 8.66px;
+        fill: #F6F5EF;
     }
 
     .git {
@@ -360,4 +379,11 @@
         border-radius: 20px;
         background-color: #1F212D;
     }
+
+    .pdd {
+        color: #F6F5EF;
+        border: none;
+        background-color: #11131F;
+    }
+
 }
