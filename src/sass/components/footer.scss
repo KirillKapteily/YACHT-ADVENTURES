@@ -14,6 +14,10 @@ body {
   color: $text-color;
 }
 
+.footer__menu{
+  padding-left: 0px;
+}
+
 .footer__text {
   color: $text-color;
 }
@@ -201,6 +205,7 @@ body {
   .footer__menu {
     flex-direction: column;
     gap: 24px;
+
 
   }
 
